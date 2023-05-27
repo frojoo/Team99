@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .intro_btn-style {
+    @apply border-[1px] border-white rounded-full px-7 py-2 mr-5;
+  }
+
+  .sites_form {
+    @apply w-[220px] h-[95px] rounded-t-xl border-b-[1px] flex justify-center items-center;
+  }
+
+  .issue_icon {
+    @apply mr-10 flex flex-col justify-center items-center;
+  }
+
+  .issue_img {
+    @apply w-[68px] h-[72px] mb-3;
+  }
+}
