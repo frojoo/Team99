@@ -8,7 +8,7 @@ function Intro() {
         src={`${process.env.PUBLIC_URL}/images/ocean.jpg`}
         alt="background"
       />
-      <div className="w-full justify-center flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <div className="w-full justify-center flex absolute top-40 left-1/2 -translate-x-1/2 ">
         <div className="flex flex-col mr-32">
           <div className="text-white text-6xl">
             <div>KEITI</div>
